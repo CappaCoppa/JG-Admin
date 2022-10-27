@@ -9,3 +9,4 @@ The web-based application is the second part of the project which is responsible
 - React - for front-end
 - MongoDB - for back-end
 - MongoDB realm - for the connection to the database and authentification of the user.
+- Styled-components - for the styling of the application.

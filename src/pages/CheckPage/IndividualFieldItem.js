@@ -7,12 +7,7 @@ import styled from "styled-components";
 
 export const IndividualFieldItem = ({ item }) => {
   const handleContentLogic = () => {
-    if (
-      item.completed_by === true &&
-      item.clock_number === true &&
-      item.time_completed === true &&
-      item.is_completed === true
-    ) {
+    if (item.is_completed === true) {
       return (
         <>
           <SectionTextLevelFour>
